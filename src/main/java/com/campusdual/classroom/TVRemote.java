@@ -2,10 +2,10 @@ package com.campusdual.classroom;
 
 public class TVRemote {
 
-    private String color;
     public boolean on;
     public int channel;
     public int volume;
+    private String color;
 
     public TVRemote (String color){
         this.color = color;
